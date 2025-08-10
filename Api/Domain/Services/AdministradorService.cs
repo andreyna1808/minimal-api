@@ -15,11 +15,11 @@ public class AdministradorService : IAdministrador
     private readonly DbContexto _contexto;
     private readonly string _jwtKey;
 
-    public AdministradorService(DbContexto contexto, IConfiguration config)
+    public AdministradorService(DbContexto contexto, IConfiguration? config = null)
     {
         _contexto = contexto;
         _jwtKey =
-            config["JWT:Key"]
+            config?.GetValue<string>("JWT:Key")
             ?? "MinhaChaveSuperSecreta123456789!@#MinhaChaveSuperSecreta123456789";
     }
 

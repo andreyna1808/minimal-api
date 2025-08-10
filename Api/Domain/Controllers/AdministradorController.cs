@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using minimal_api.Dominio.DTOs;
 using minimal_api.Dominio.Entidades;
 using minimal_api.Dominio.Interfaces;
+using minimal_api.Dominio.ModelViews;
 
 namespace minimal_api.Dominio.Controllers;
 
@@ -29,14 +30,12 @@ public class AdministradorController : ControllerBase
         if (resultado != null)
         {
             var token = _administrador.GenerateToken(resultado);
-            return Ok(
-                new
-                {
-                    resultado.Email,
-                    resultado.Perfil,
-                    token,
-                }
-            );
+            return Ok(new AdministradorLogado
+            {
+                Email = resultado.Email,
+                Perfil = resultado.Perfil,
+                Token = token
+            });
         }
 
         return Unauthorized();
