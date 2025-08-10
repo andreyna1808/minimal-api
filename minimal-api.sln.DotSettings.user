@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cd7a306d_002D61b7_002D405a_002Db274_002D4184498b3977/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AdministradorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::CAC40DDC-BD8D-4C9F-BF91-6753638B0FC5::net9.0::Test.Domain.AdministradorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::CAC40DDC-BD8D-4C9F-BF91-6753638B0FC5::net9.0::Test.Domain.VeiculosTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::CAC40DDC-BD8D-4C9F-BF91-6753638B0FC5::net9.0::Test.Domain.Services.AdministradorServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::CAC40DDC-BD8D-4C9F-BF91-6753638B0FC5::net9.0::Test.Domain.Services.VeiculosServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::CAC40DDC-BD8D-4C9F-BF91-6753638B0FC5::net9.0::Test.Requests.AdministradorRequestTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fba3d469_002D16b4_002D40fa_002Dbcd1_002Daf151138be59/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AdministradorRequestTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::CAC40DDC-BD8D-4C9F-BF91-6753638B0FC5::net9.0::Test.Requests.AdministradorRequestTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
