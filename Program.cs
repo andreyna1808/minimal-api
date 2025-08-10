@@ -61,7 +61,7 @@ builder.Services.AddAuthentication(option =>
 });
 builder.Services.AddAuthorization();
 
-builder.Services.AddScoped<IAdminstrador, AdministradorService>();
+builder.Services.AddScoped<IAdministrador, AdministradorService>();
 builder.Services.AddScoped<IVeiculo, VeiculoService>();
 
 builder.Services.AddScoped<IValidationVeiculo, ValidationVeiculoDTO>();
